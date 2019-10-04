@@ -5,43 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:700i&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <nav role="navigation">
-        <h2 class="nav-name">Nav</h2>
+        <h2 class="nav-name">Evan Vogts</h2>
     </nav>
+
     <main role="main">
         <header role="banner">
-            <img class ="hero" src="./resources/Me.png" alt="Evan Vogts">
-            <h1>Hero</h1>
-            <p class="headline">Headline</p>
+            <img class ="hero" src="/assets/Me.png" alt="Evan Vogts">
+            <h1>Evan Vogts</h1>
+            <p class="headline">Hi, my name is Evan! I’m a web/software developer with 
+                a background in business to business sales.</p>
+            <p id="landingBioButton">Learn More About Me!</p>
         </header>
 
-        <section>
+        <section id="bioSection" role="About Me Section">
             <h3>About Me</h3>
-            <p>Content</p>
+            <div id="bioBox">
+                <p class="bio-content" class="bio">	I am a web/software developer and 
+                    recent graduate of the engineering immersion course at Thinkful. 
+                    The innovation and collaboration involved in creating applications 
+                    I use daily really inspired me to learn how to develop my own. I 
+                    love learning how things are created, how things function, and how 
+                    they are used. As a developer, I can experience all three of these 
+                    at once.</p>
+                <p>When I’m not coding, you can find me making music, playing video 
+                    games, spending much needed time outdoors, or just relaxing with 
+                    my two cats and a good book.</p>
+                <p>My programming skills include: HTML, CSS, JavaScript, and intend to 
+                    learn much more.</p>
+                <p id="bioProjectButton">See My Projects Here!</p>
+            </div>
         </section>
 
         <section>
-            <h3>Projects Intro</h3>
-            <p>Content</p>
+            <h3>My Projects</h3>
+            <p id="projectIntro">Below is a list of projects I have built from the ground up:</p>
         </section>
 
-        <section>
-            <h3>Project 1</h3>
-            <p>Content</p>
+        <section role="Web Quiz Application">
+            <h3 class="projectTitle">Web Quiz Application</h3>
+            <div id="projectDetails" role="Project Details">
+                <h4>Description:</h4>
+                <p role="description" class="description">An interactive quiz app taking the user through 
+                    a series of five multiple choice questions on the topic of Rock 
+                    and Roll history.</p>
+                <p role="detailed description" class="description">Upon starting the quiz, the first question,
+                    is rendered along with a list of multiple choices the user can select from. 
+                    After submitting an answer, the user 
+                    receives feedback on their answer. If correct, the app adds a point 
+                    to their score and prompts the user to move on. If incorrect, the 
+                    correct answer is rendered, and the user is prompted to move on. 
+                    At the end of the quiz, the user is given their total score, and an 
+                    option to retake the quiz.</p>
+
+                <h4 role="technologies used" class="tech">Technologies Used:</h4>
+                <div class="logoBox">
+                    <img src="\assets\logos\HTML-Logo.png" alt="HTML Logo" class="logo">
+                    <img src="\assets\logos\CSS-Logo.png" alt="CSS Logo" class="logo">
+                    <img src="\assets\logos\JS-Logo.png" alt="JavaScript Logo" class="logo">
+                </div>
+            </div>
+        </section>
+
+        <section role="Web Quiz App Pictures and Links">
+            <a href="https://thinkful-ei-heron.github.io/Evan-Larry_Quiz-App/" target="_blank">
+                <img src="/assets/projects/quizApp/QuizApp1.png" alt="First Quiz App Screenshot" class="screenshot"></a>
+            <a href="https://thinkful-ei-heron.github.io/Evan-Larry_Quiz-App/" target="_blank">
+                <img src="/assets/projects/quizApp/QuizApp2.png" alt="Second Quiz App Screenshot" class="screenshot"></a>
+
+            <div role="site and repo links" class="projectLinks">
+                <a href="https://thinkful-ei-heron.github.io/Evan-Larry_Quiz-App/" target="_blank" class="link">Visit the Site!</a>
+                <a href="https://github.com/thinkful-ei-heron/Evan-Larry_Quiz-App" target="_blank" class="link">Source Code</a>
+            </div>
         </section>
 
         <section>
             <h3>Project 2</h3>
             <p>Content</p>
         </section>
-        
+
         <section>
-            <h3>Contact</h3>
+            <h3>Pictures for 2</h3>
             <p>Content</p>
+        </section>
+        
+        <section id="bioContact">
+            <h3>Contact Info</h3>
+            <p>Site Links</p>
+            <p>Email Form</p>
         </section>
     </main>
     <footer role="footer-navigation">Footer Nav Links</footer>
