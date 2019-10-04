@@ -15,12 +15,12 @@
     </nav>
 
     <main role="main">
-        <header role="banner">
+        <header role="banner" id="banner">
             <img class ="hero" src="/assets/Me.png" alt="Evan Vogts">
             <h1>Evan Vogts</h1>
             <p class="headline">Hi, my name is Evan! I’m a web/software developer with 
                 a background in business to business sales.</p>
-            <p id="landingBioButton">Learn More About Me!</p>
+            <p id="landingBioButton"><a href="#bioSection">Learn More About Me!</a></p>
         </header>
 
         <section id="bioSection" role="About Me Section">
@@ -38,11 +38,11 @@
                     my two cats and a good book.</p>
                 <p>My programming skills include: HTML, CSS, JavaScript, and intend to 
                     learn much more.</p>
-                <p id="bioProjectButton">See My Projects Here!</p>
+                <p id="bioProjectButton"><a href="#allProjects">See My Projects Here!</a></p>
             </div>
         </section>
 
-        <section>
+        <section role="Projects Introduction" id="allProjects">
             <h3>My Projects</h3>
             <p id="projectIntro">Below is a list of projects I have built from the ground up:</p>
         </section>
@@ -140,9 +140,9 @@
 
     <footer role="footer-navigation">
         <ul>
-            <li>Home</li>
-            <li>About Me</li>
-            <li>Projects</li>
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#bioSection">About Me</a></li>
+            <li><a href="#allProjects">Projects</a></li>
         </ul>
     </footer>
 </body>
