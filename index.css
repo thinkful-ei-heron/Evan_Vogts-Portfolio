@@ -61,7 +61,7 @@
     .landing-button {
         position: relative;
         margin: auto;
-        top: 190px;
+        top: 100px;
     }
     
     section {
@@ -72,5 +72,53 @@
     
     section:nth-child(even) {
         background-color: #ddd;
+    }
+
+    @media screen and (min-height: 569px) {
+
+        .landing-button {
+            top: 120px;
+        }
+
+    }
+
+    @media screen and (min-height: 730px) {
+
+        .landing-button {
+            top: 260px;
+        }
+
+    }
+
+    @media screen and (min-height: 811px) {
+
+        .landing-button {
+            top: 320px;
+        }
+
+    }
+
+    @media screen and (min-height: 1023px) {
+
+        .landing-button {
+            top: 460px;
+        }
+
+    }
+
+    @media screen and (min-height: 1300px) {
+
+        .landing-button {
+            top: 740px;
+        }
+
+        h1 {
+            top: 15%;
+            }
+    
+        .headline {
+            top: 15%;
+        }
+
     }
   
