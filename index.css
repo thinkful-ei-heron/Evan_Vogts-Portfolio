@@ -101,6 +101,10 @@
         color:#656663;
     }
 
+    #aboutMe {
+        margin: 10% 0 10% 0;
+    }
+
     #bioBox {
         margin: 3%;
     }
@@ -117,10 +121,7 @@
     #bioProjectButton {
         color: #D4D8D8;
         border: 1px solid black;
-        margin-top: 15%;
-        margin-bottom: 15%;
-        margin-left: 20%;
-        margin-right: 20%;
+        margin: 15% 20% 15%;
         background-color:#213F52;
     }
 
