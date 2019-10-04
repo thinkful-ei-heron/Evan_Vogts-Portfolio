@@ -163,6 +163,7 @@
         border: 2px solid #656663;
         border-radius: 20%;
         margin: 5%;
+        padding: 5px;
     }
 
     .projectLinks {
@@ -179,7 +180,7 @@
         text-decoration: none;
     }
 
-    a:hover {
+    .link:hover {
         text-decoration: underline;
         color: #D4D8D8;
         background-color: #213F52;
