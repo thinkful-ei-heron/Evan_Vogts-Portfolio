@@ -325,6 +325,25 @@
 
     }
 
+    /* increases white space for taller devices */
+    @media screen and (min-height: 640px) {
+        #landingBioButton {
+            top: 20%;
+        }
+
+        h1 {
+            top: 14%;
+        }
+
+        .hero {
+            top: 12%;
+        }
+
+        .headline {
+            top: 12%;
+        }
+    }
+
     @media screen and (min-height: 780px) {
 
         h1 {
