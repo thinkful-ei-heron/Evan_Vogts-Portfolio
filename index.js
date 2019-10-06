@@ -12,21 +12,25 @@ const renderNavMenu = function () {
 };
 
 const navMenuOpen = function () {
-    return `<ul class="notHidden">
-    <li><a href="#banner">Home</a></li>
-    <li><a href="#bioSection">About Me</a></li>
-    <li><a href="#allProjects">Projects</a></li>
-    <li><a href="#bioContact">Contact</a></li>
+    return `
+    <img src="/assets/hamburger_menu.png" alt="menu" class="menu">
+    <ul class="notHidden">
+    <li class="navOptions"><a href="#banner">Home</a></li>
+    <li class="navOptions"><a href="#bioSection">About Me</a></li>
+    <li class="navOptions"><a href="#allProjects">Projects</a></li>
+    <li class="navOptions"><a href="#bioContact">Contact</a></li>
     </ul>`;
 };
 
 const navMenuClosed = function () {
-    return `<ul class="hidden>
+    return `
+    <img src="/assets/hamburger_menu.png" alt="menu" class="menu">
+    <ul class="hidden">
     </ul>`;
 };
 
 const handleOpenNavMenu = function () {
-    $('nav').on('click','.navMenu', function () {
+    $('nav').on('click','.menu', function () {
         toggleExpandedMenu();
         renderNavMenu();
     });

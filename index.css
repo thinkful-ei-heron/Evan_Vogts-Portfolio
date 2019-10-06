@@ -26,10 +26,10 @@
     }
     
     .nav-name {
-        margin-left: 4%;
+        line-height: 0;
+        margin: 8% 0% 8% 4%;
         padding: 0;
-        margin-top: 1%;
-        margin-bottom: 1%;
+        max-height: 10%;
     }
 
     .hidden {
@@ -37,20 +37,32 @@
     }
 
     .notHidden {
-        display: inline;
+        text-align: left;
+        margin: 15% 10% 15% 0%;
+        padding: 0%;
+    }
+
+    .menu-input {
+        margin-bottom: 0%;
+        padding-top: 0.2%;
+    }
+
+    .navOptions {
+        margin: 5% 3% 0% 0%;
+        border-bottom: 1px solid #D4D8D8;
     }
 
     .menu {
         width: 14%;
+        height: auto;
         position: fixed;
-        margin-right: 1.5%;
-        margin-top: 1.5%;
-        margin-bottom: 1%;
+        margin-right: 1.6%;
+        margin-top: 2%;
         top: 0%;
         right: 0%;
-        padding:2.6%;
+        padding: 1%;
         border: 1px solid #D3D1CC;
-        background-color: #656663ce;
+        background-color: #656663ad;
         border-radius: 10%;
     }
 
@@ -228,6 +240,12 @@
 
     ul {
         list-style: none;
+        /* display: flex;
+        justify-content: space-evenly;
+        padding: 2%; */
+    }
+
+    .footer {
         display: flex;
         justify-content: space-evenly;
         padding: 2%;
