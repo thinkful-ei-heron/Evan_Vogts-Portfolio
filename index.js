@@ -6,17 +6,23 @@ const renderNavMenu = function () {
         html = navMenuOpen();
     }
     else if (navMenuToggle === false) {
-        html = ``;
+        html = navMenuClosed();
     }
     $('.menu-input').html(html);
 };
 
 const navMenuOpen = function () {
-    return `
-    <li>Home</li>
-    <li>About Me</li>
-    <li>Projects</li>
-    <li>Contact</li>`;
+    return `<ul class="notHidden">
+    <li><a href="#banner">Home</a></li>
+    <li><a href="#bioSection">About Me</a></li>
+    <li><a href="#allProjects">Projects</a></li>
+    <li><a href="#bioContact">Contact</a></li>
+    </ul>`;
+};
+
+const navMenuClosed = function () {
+    return `<ul class="hidden>
+    </ul>`;
 };
 
 const handleOpenNavMenu = function () {
