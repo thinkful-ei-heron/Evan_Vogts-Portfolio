@@ -18,6 +18,7 @@
     
     nav {
         position: fixed;
+        padding: 1%;
         top: 0;
         left: 0;
         right: 0;
@@ -27,9 +28,10 @@
     
     .nav-name {
         line-height: 0;
-        margin: 8% 0% 8% 4%;
-        padding: 0;
+        margin: 5% 10% 4% 2%;
+        padding: 3%;
         max-height: 10%;
+        display: inline-block;
     }
 
     .hidden {
@@ -43,12 +45,12 @@
     }
 
     .menu-input {
-        margin-bottom: 0%;
+        display: inline;
         padding-top: 0.2%;
     }
 
     .navOptions {
-        margin: 5% 3% 0% 0%;
+        margin: 5% 3% 0% 5%;
         border-bottom: 1px solid #D4D8D8;
     }
 
@@ -56,8 +58,8 @@
         width: 14%;
         height: auto;
         position: fixed;
-        margin-right: 1.6%;
-        margin-top: 2%;
+        margin-right: 1%;
+        margin-top: 1.4%;
         top: 0%;
         right: 0%;
         padding: 1%;
@@ -76,6 +78,7 @@
     header {
         padding: 12% 0;
         height: 100vh;
+        min-height: 568px;
         background-color:#D4D8D8;
     }
 
@@ -119,6 +122,7 @@
 
     #bioSection {
         background-color: #A8BACF;
+        padding-top: 15%;
     }
 
     h3 {
@@ -157,6 +161,11 @@
         border: 1px solid black;
         margin: 15% 20% 15%;
         background-color:#213F52;
+    }
+
+    #allProjects {
+        padding-top: 15%;
+        padding-bottom: 15%;
     }
 
     #projectIntro {
@@ -240,9 +249,6 @@
 
     ul {
         list-style: none;
-        /* display: flex;
-        justify-content: space-evenly;
-        padding: 2%; */
     }
 
     .footer {
@@ -259,6 +265,64 @@
 
     a {
         text-decoration: none;
+    }
+
+    /* Scale hamburger menu, h2 font size, and nav-name margin */
+    @media screen and (min-width: 414px) {
+        .menu {
+            width: 10%;
+            margin-right: 1.3%;
+            margin-top: 1.4%;
+        }
+
+        .nav-name {
+            margin: 3% 8% 2% 2%;
+        }
+
+        h2 {
+            font-size: 130%;
+        }
+    }
+
+    /* Gets rid of hamburger menu and replaces with row menu */
+    @media screen and (min-width: 760px) {
+        .hidden {
+            position: relative;
+            top: 0%;
+            right: 0%;
+            margin: 0% 1% 0% 0%;
+            width: 60%;
+            display: inline-flex;
+            justify-content: space-evenly;
+        }
+
+        .navOptions {
+            margin: 1%;
+        }
+
+        .menu {
+            display: none;
+        }
+
+        .notHidden {
+            position: absolute;
+            top: 0%;
+            right: 0;
+            width: 70%;
+            margin-right: 1%;
+            display: inline-flex;
+            justify-content: space-evenly;
+        }
+
+        nav {
+            max-height: 85.13px;
+        }
+
+        .nav-name {
+            margin: 0;
+            max-height: 30px;
+        }
+
     }
 
     @media screen and (min-height: 780px) {

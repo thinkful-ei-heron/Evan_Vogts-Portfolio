@@ -1,7 +1,7 @@
 /* eslint-disable indent */
 
 const renderNavMenu = function () {
-    let html = ``;
+    let html = '';
     if (navMenuToggle === true) {
         html = navMenuOpen();
     }
@@ -26,6 +26,10 @@ const navMenuClosed = function () {
     return `
     <img src="/assets/hamburger_menu.png" alt="menu" class="menu">
     <ul class="hidden">
+    <li class="navOptions"><a href="#banner">Home</a></li>
+    <li class="navOptions"><a href="#bioSection">About Me</a></li>
+    <li class="navOptions"><a href="#allProjects">Projects</a></li>
+    <li class="navOptions"><a href="#bioContact">Contact</a></li>
     </ul>`;
 };
 
