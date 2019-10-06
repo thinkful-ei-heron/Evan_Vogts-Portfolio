@@ -13,7 +13,7 @@ const renderNavMenu = function () {
 
 const navMenuOpen = function () {
     return `
-    <img src="/assets/hamburger_menu.png" alt="menu" class="menu">
+    <img src="./assets/hamburger_menu.png" alt="menu" class="menu">
     <ul class="notHidden">
     <li class="navOptions"><a href="#banner">Home</a></li>
     <li class="navOptions"><a href="#bioSection">About</a></li>
@@ -24,7 +24,7 @@ const navMenuOpen = function () {
 
 const navMenuClosed = function () {
     return `
-    <img src="/assets/hamburger_menu.png" alt="menu" class="menu">
+    <img src="./assets/hamburger_menu.png" alt="menu" class="menu">
     <ul class="hidden">
     <li class="navOptions"><a href="#banner">Home</a></li>
     <li class="navOptions"><a href="#bioSection">About</a></li>
