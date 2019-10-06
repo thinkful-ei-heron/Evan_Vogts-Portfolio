@@ -16,7 +16,7 @@ const navMenuOpen = function () {
     <img src="/assets/hamburger_menu.png" alt="menu" class="menu">
     <ul class="notHidden">
     <li class="navOptions"><a href="#banner">Home</a></li>
-    <li class="navOptions"><a href="#bioSection">About Me</a></li>
+    <li class="navOptions"><a href="#bioSection">About</a></li>
     <li class="navOptions"><a href="#allProjects">Projects</a></li>
     <li class="navOptions"><a href="#bioContact">Contact</a></li>
     </ul>`;
@@ -27,7 +27,7 @@ const navMenuClosed = function () {
     <img src="/assets/hamburger_menu.png" alt="menu" class="menu">
     <ul class="hidden">
     <li class="navOptions"><a href="#banner">Home</a></li>
-    <li class="navOptions"><a href="#bioSection">About Me</a></li>
+    <li class="navOptions"><a href="#bioSection">About</a></li>
     <li class="navOptions"><a href="#allProjects">Projects</a></li>
     <li class="navOptions"><a href="#bioContact">Contact</a></li>
     </ul>`;
