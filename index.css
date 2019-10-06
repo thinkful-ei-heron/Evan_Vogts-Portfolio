@@ -32,6 +32,20 @@
         margin-bottom: 1%;
     }
 
+    .menu {
+        width: 14%;
+        position: fixed;
+        margin-right: 1.5%;
+        margin-top: 1.5%;
+        margin-bottom: 1%;
+        top: 0%;
+        right: 0%;
+        padding:2.6%;
+        border: 1px solid #D3D1CC;
+        background-color: #656663ce;
+        border-radius: 10%;
+    }
+
     h2 {
         font-size: 120%;
         font-family: 'Arvo', serif;
