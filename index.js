@@ -15,10 +15,10 @@ const navMenuOpen = function () {
     return `
     <img src="./assets/hamburger_menu.png" alt="menu" class="menu">
     <ul class="notHidden">
-    <li class="navOptions"><a href="#banner">Home</a></li>
-    <li class="navOptions"><a href="#bioSection">About</a></li>
-    <li class="navOptions"><a href="#allProjects">Projects</a></li>
-    <li class="navOptions"><a href="#bioContact">Contact</a></li>
+    <li class="navOptionsS"><a href="#banner">Home</a></li>
+    <li class="navOptionsS"><a href="#bioSection">About</a></li>
+    <li class="navOptionsS"><a href="#allProjects">Projects</a></li>
+    <li class="navOptionsS"><a href="#bioContact">Contact</a></li>
     </ul>`;
 };
 
@@ -41,7 +41,7 @@ const handleOpenNavMenu = function () {
 };
 
 const handleCloseNavMenu = function () {
-    $('nav').on('click', '.navOptions', function(){
+    $('nav').on('click', '.navOptionsS', function(){
         toggleExpandedMenu();
         renderNavMenu();
     });
