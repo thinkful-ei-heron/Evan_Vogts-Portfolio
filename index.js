@@ -40,6 +40,13 @@ const handleOpenNavMenu = function () {
     });
 };
 
+const handleCloseNavMenu = function () {
+    $('nav').on('click', '.navOptions', function(){
+        toggleExpandedMenu();
+        renderNavMenu();
+    });
+};
+
 const toggleExpandedMenu = function () {
     navMenuToggle = !navMenuToggle;
   };
@@ -47,6 +54,7 @@ const toggleExpandedMenu = function () {
 const main = function () {
     handleOpenNavMenu();
     renderNavMenu();
+    handleCloseNavMenu();
 };
 
 let navMenuToggle = false;
