@@ -24,12 +24,13 @@
         right: 0;
         z-index: 10;
         text-align: left;
+        min-height: 70px;
     }
     
     .nav-name {
         line-height: 0;
-        margin: 5% 10% 4% 2%;
-        padding: 3%;
+        margin: 7% 10% 4% 3%;
+        padding: 2%;
         max-height: 10%;
         display: inline-block;
     }
@@ -60,16 +61,14 @@
     }
 
     .menu {
-        width: 14%;
+        width: 18%;
         height: auto;
         position: fixed;
         margin-right: 1%;
-        margin-top: 1.4%;
+        margin-top: 0.8%;
         top: 0%;
         right: 0%;
         padding: 1%;
-        border: 1px solid #D3D1CC;
-        background-color: #656663ad;
         border-radius: 10%;
     }
 
@@ -81,9 +80,9 @@
     }
     
     header {
-        padding: 12% 0;
+        padding: 10% 0;
         height: 100vh;
-        min-height: 568px;
+        min-height: 680px;
         background-color:#D4D8D8;
     }
 
@@ -126,7 +125,7 @@
     }
 
     #bioSection {
-        background-color: #A8BACF;
+        background-color: rgb(195, 208, 224);
         padding-top: 8%;
     }
 
@@ -141,7 +140,7 @@
     }
 
     p {
-        color:#656663;
+        color:#595a58;
     }
 
     #aboutMe {
@@ -154,9 +153,10 @@
 
     #landingBioButton {
         position: relative;
-        top: 12%;
+        top: 10%;
         color: #D4D8D8;
         border: 1px solid black;
+        padding: 12px;
         margin: 0 20%;
         background-color:#213F52;
     }
@@ -165,6 +165,7 @@
         color: #D4D8D8;
         border: 1px solid black;
         margin: 15% 20% 15%;
+        padding: 12px;
         background-color:#213F52;
     }
 
@@ -274,6 +275,12 @@
         color: #D4D8D8;
     }
 
+    .navOptionsS a {
+        width: 100%;
+        display: block;
+    }
+
+
     .email-link {
         text-align: center;
         color: blue;
@@ -288,13 +295,14 @@
     /* Scale hamburger menu, h2 font size, and nav-name margin */
     @media screen and (min-width: 414px) {
         .menu {
-            width: 10%;
-            margin-right: 1.3%;
-            margin-top: 1.4%;
+            width: 14%;
+            margin-right: 0.8%;
+            margin-top: 0.4%;
+            margin-bottom: 0;
         }
 
         .nav-name {
-            margin: 3% 8% 2% 2%;
+            margin: 4% 8% 2% 2%;
         }
 
         h2 {
@@ -324,7 +332,7 @@
     /* increases white space for devices taller than 731px */
     @media screen and (min-height: 731px) {
         #landingBioButton {
-            top: 28%;
+            top: 20%;
         }
 
         h1 {
@@ -380,7 +388,7 @@
         }
 
         .navOptions {
-            margin: 0% 0% 0% 15%;
+            margin: 4% 0% 0% 15%;
         }
 
         .navOptionsS {
@@ -393,10 +401,11 @@
 
         .menu-input {
             position: fixed;
+            display: flex;
             top: 0%;
-            right: 1%;
-            padding-bottom: 1%;
-            margin: 1% 10% 0% 0%;
+            right: 10%;
+            padding-bottom: 0%;
+            margin: 0%;
             width: 50%;
         }
 
@@ -415,7 +424,7 @@
         }
 
         .nav-name {
-            margin: 0;
+            margin: 1.8% 0% 0% 1%;
             padding: 1%;
             max-height: 30px;
         }
@@ -542,6 +551,16 @@
         #allProjects {
             padding-top: 6%;
             padding-bottom: 6%;
+        }
+
+        .bio-content {
+            font-size: 2.2rem;
+        }
+
+        .nav-name {
+            margin: 1% 0% 0% 1%;
+            padding: 1%;
+            max-height: 30px;
         }
     }
   
