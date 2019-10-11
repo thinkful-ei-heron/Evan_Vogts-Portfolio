@@ -24,7 +24,7 @@
             <p id="landingBioButton" class="landingBioButton"><a href="#bioSection">Learn More About Me!</a></p>
         </header>
 
-        <section id="bioSection" role="About Me Section">
+        <section id="bioSection" role="section" aria-label="About Me Section">
             <h3 id="aboutMe">About Me</h3>
             <div id="bioBox">
                 <p class="bio-content bio">	I am a web/software developer and 
@@ -43,19 +43,19 @@
             </div>
         </section>
 
-        <section role="Projects Introduction" id="allProjects">
+        <section role="region" id="allProjects" aria-label="Projects Introduction">
             <h3>My Projects</h3>
             <p id="projectIntro">Below is a list of projects I have built from the ground up:</p>
         </section>
 
-        <section role="Web Quiz App">
+        <section role="region" aria-label="Project Details">
             <h3 class="projectTitle">Web Quiz App</h3>
-            <div id="projectDetails" role="Project Details">
+            <div id="projectDetails">
                 <h4>Description:</h4>
-                <p role="description" class="description">An interactive quiz app taking the user through 
+                <p class="description" aria-label="description">An interactive quiz app taking the user through 
                     a series of five multiple choice questions on the topic of Rock 
                     and Roll history.</p>
-                <p role="detailed description" class="description">Upon starting the quiz, the first question,
+                <p aria-label="detailed description" class="description">Upon starting the quiz, the first question,
                     is rendered along with a list of multiple choices the user can select from. 
                     After submitting an answer, the user 
                     receives feedback on their answer. If correct, the app adds a point 
@@ -63,7 +63,7 @@
                     correct answer is rendered, and the user is prompted to move on. 
                     At the end of the quiz, the user is given their total score, and an 
                     option to retake the quiz.</p>
-                <h4 role="technologies used" class="tech">Technologies Used:</h4>
+                <h4 aria-label="technologies used" class="tech">Technologies Used:</h4>
                 <div class="logoBox">
                     <img src="./assets/logos/HTML-Logo.png" alt="HTML Logo" class="logo">
                     <img src="./assets/logos/CSS-Logo.png" alt="CSS Logo" class="logo">
@@ -72,12 +72,12 @@
             </div>
         </section>
 
-        <section role="Web Quiz App Pictures and Links">
+        <section role="region" aria-label="Web Quiz App Pictures and Links">
             <div class="screenshots">
                 <a href="https://thinkful-ei-heron.github.io/Evan-Larry_Quiz-App/" target="_blank">
                     <img src="./assets/projects/quizApp/QuizApp1.png" alt="First Quiz App Screenshot" class="screenshot"></a>
             </div>
-            <div role="site and repo links" class="projectLinks">
+            <div class="projectLinks" aria-label="site and repo links">
                 <a href="https://thinkful-ei-heron.github.io/Evan-Larry_Quiz-App/" target="_blank" class="link">Visit the Site!</a>
                 <a href="https://github.com/thinkful-ei-heron/Evan-Larry_Quiz-App" target="_blank" class="link">Source Code</a>
             </div>

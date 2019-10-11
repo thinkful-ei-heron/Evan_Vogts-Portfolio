@@ -8,7 +8,7 @@ const renderNavMenu = function () {
     else if (navMenuToggle === false) {
         html = navMenuClosed();
     }
-    $('.menu-input').html(html);
+    $('.menu-input').html(html)
 };
 
 const navMenuOpen = function () {
