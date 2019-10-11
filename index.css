@@ -180,7 +180,7 @@
         padding-bottom: 1%;
     }
 
-    #projectDetails {
+    .projectDetails {
         text-align: left;
         margin-left: 5%;
         margin-right: 5%;
@@ -484,7 +484,7 @@
             margin: 2% 0 4% 0;
         }
 
-        #projectDetails {
+        .projectDetails {
             text-align: left;
             margin-left: 10%;
             margin-right: 10%;
